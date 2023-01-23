@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>News homepage</title>
+
+
+</head>
+<body>
+  <div class="mobilemenu hide">
+    <img class="close" src="./assets/images/icon-menu-close.svg" alt="">
+    <ul>
+      <li class="item"><a href="">Home</a></li>
+      <li class="item"><a href=""> New</a></li>
+      <li class="item"><a href=""> Popular</a></li>
+      <li class="item"><a href="">Trending</a></li>
+      <li class="item"><a href="">Categories</a></li>
+    </ul>
+  </div>
+  <nav>
+    <img src="./assets/images/logo.svg" alt="">
+    <ul>
+      <li class="item"><a href="">Home</a></li>
+      <li class="item"><a href=""> New</a></li>
+      <li class="item"><a href=""> Popular</a></li>
+      <li class="item"><a href="">Trending</a></li>
+      <li class="item"><a href="">Categories</a></li>
+    </ul>
+
+    <img class="menu" src="./assets/images/icon-menu.svg" alt="">
+
+
+  </nav>
+
+<main>
+  <section>
+    <picture>
+    <source media="(max-width: 992px)" srcset="./assets/images/image-web-3-mobile.jpg">
+    <img src="./assets/images/image-web-3-desktop.jpg" alt="">
+    </picture>
+     <div class="article">
+     <h1> The Bright Future of Web 3.0?</h1>
+     <div class="article__paragraph">
+     <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.   But is it really fulfilling its promise?</p>
+     <a href="">Read more</a>  
+     </div>
+     
+   </div>
+  
+  </section>
+
+  <aside>
+  <h1>New</h1>
+  <h2>  <a href="">Hydrogen VS Electric Cars</a></h2>
+  <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+  
+ <h2> <a href="">The Downsides of AI Artistry</a></h2>
+ <p> What are the possible adverse effects of on-demand AI image generation?</p>
+ 
+
+ <h2> <a href="">Is VC Funding Drying Up?</a></h2>
+ <p> Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+</aside>
+
+  </main> 
+ 
+<footer>  
+  <div class="footer__article">
+    <img src="./assets/images/image-retro-pcs.jpg" alt="">
+   <div class="footer__article__desc"><h1> 01</h1>
+  <h2><a href="">Reviving Retro PCs</a></h2>
+ <p> What happens when old PCs are given modern upgrades?</p>
+</div>
+</div>
+  <div class="footer__article">
+    <img src="./assets/images/image-top-laptops.jpg" alt="">
+
+ <div class="footer__article__desc"><h1>  02</h1>
+  <h2><a href="">Top 10 Laptops of 2022</a></h2>
+  <p>Our best picks for various needs and budgets.</p>
+   </div>
+ </div>
+
+  <div class="footer__article">
+    <img src="./assets/images/image-gaming-growth.jpg" alt="">
+
+ <div class="footer__article__desc"><h1>  03</h1>
+ <h2> <a href="">The Growth of Gaming</a></h2>
+ <p> How the pandemic has sparked fresh opportunities.</p>
+  </div>
+</div>
+</footer>
+
+
+<script>
+  
+  const close = document.querySelector('.close');
+
+  const mobilemenu = document.querySelector('.mobilemenu');
+
+  const menuopen = document.querySelector('.menu');
+
+  close.addEventListener('click', function() {
+
+    mobilemenu.classList.add('hide');
+
+  })
+
+    menuopen.addEventListener('click', function() {
+
+   mobilemenu.classList.remove('hide');
+
+  })
+
+
+</script>
+
+</body>
+</html>
