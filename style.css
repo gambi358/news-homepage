@@ -15,8 +15,8 @@ body {
 
 nav, main, footer {
 max-width: 1440px;
- /*width:80%: */
-/*margin:0 auto;*/
+
+margin:0 auto;
 }
 
 nav {
